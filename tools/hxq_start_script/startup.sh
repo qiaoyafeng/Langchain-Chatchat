@@ -38,11 +38,11 @@ fi
 
 
 
-bash /root/download_model.sh
+bash download_model.sh
 
-bash /root/start_xinference.sh 
+bash start_xinference.sh
 
-bash /root/start_chatchat.sh 
+bash start_chatchat.sh
 
 
 

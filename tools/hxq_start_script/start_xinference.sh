@@ -15,8 +15,8 @@ done
 echo "xinference-local started successfully"
 
 
-bash /root/start_models.sh
-bash /root/start_models_emb.sh
+bash start_models.sh
+bash start_models_emb.sh
 
 
 echo "Started xinference-local with PID $PID"
