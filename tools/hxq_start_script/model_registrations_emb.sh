@@ -13,4 +13,4 @@ curl 'http://127.0.0.1:9997/v1/model_registrations/embedding' \
   -H 'sec-ch-ua: "Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"' \
   -H 'sec-ch-ua-mobile: ?0' \
   -H 'sec-ch-ua-platform: "Linux"' \
-  --data-raw '{"model":"{\"model_name\":\"bge-large-zh-v1.5\",\"dimensions\":768,\"max_tokens\":512,\"model_uri\":\"/opt/python/model/bge-large-zh-v1.5\",\"language\":[\"en\",\"zh\"]}","persist":true}'
+  --data-raw '{"model":"{\"model_name\":\"hxq-bge-large-zh-v1.5\",\"dimensions\":768,\"max_tokens\":512,\"model_uri\":\"/opt/python/model/bge-large-zh-v1.5\",\"language\":[\"en\",\"zh\"]}","persist":true}'
